@@ -1,21 +1,13 @@
-import random
-win = False
-com = ["rock", "paper", "scissors"]
-com_play = ""
+print("Welcome to the Space Travel Calculator!":)
 
-def playGame():
-   user_play =  input("Rock, Paper, Scissors!").lower
-   com_play = random.choice(com)
-   print(com_play)
-   if user_play == "rock" and com_play == "rock":
-      print("draw!")
-   if user_play == "paper" and com_play == "paper":
-      print("draw!")
-   if user_play == "scissors" and com_play == "scissors":
-      print("draw!")
-   if user_play == "rock" and com_play == "scissors":
+distance = int(input("What is the distance in light years?"))
 
-   
+speed = int(input("How many light years per hour are you going?"))
+
+time = (distance/speed)
+
+print("The time it would take you to reach your destination is" , time , "hours.")
+
 
 
 
