@@ -2,18 +2,14 @@ print("You are off on your space mission! You've just taken off and left the Ear
 userInput = input("Enter A or B. A) Head towards Mars B) Head into empty space")
 
 if userInput == 'A':
-
-      print("hi")
-# Student 1 finishes this code
-
-     print("hi")
-     AInput = input("Enter C or D. C) You go and greet the martians. D) You set up defenses and take over the planet")
+     print("You have arrived on the planet Mars and you notice a civilzation of Martians in the distance. What will you do?")
+     AInput = input("Enter C or D. C) You go and greet the martians. D) You set up a base to prepare")
 
      if AInput == 'C':
-          print ("You Died")
+          print ("You arrive at the Martian city and the locals are very hostile towards you. It is to the point where they immediately fire at you, killing you instantly as you melt into a goopy puddle of flesh. THE END.")
 
      elif AInput == 'D':
-          print ("You take over the planet")
+          print ("You do not stupidly walk up to a foreign nation and instead set up your own base. With this new base you stock up on weapons and prepare to take over the Martians. THE END.")
 
      else:
           print("that is not an option")
