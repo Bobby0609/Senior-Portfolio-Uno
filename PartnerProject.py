@@ -2,6 +2,7 @@ print("You are off on your space mission! You've just taken off and left the Ear
 userInput = input("Enter A or B. A) Head towards Mars B) Head into empty space")
 
 if userInput == 'A':
+
      print("hi")
      AInput = input("Enter C or D. C) You go and greet the martians. D) You set up defenses and take over the planet")
 
