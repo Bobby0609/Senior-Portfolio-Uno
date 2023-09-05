@@ -2,10 +2,22 @@ print("You are off on your space mission! You've just taken off and left the Ear
 userInput = input("Enter A or B. A) Head towards Mars B) Head into empty space")
 
 if userInput == 'A':
-# Student 1 finishes this code
+
+     print("hi")
+     AInput = input("Enter C or D. C) You go and greet the martians. D) You set up defenses and take over the planet")
+
+     if AInput == 'C':
+          print ("You Died")
+
+     elif AInput == 'D':
+          print ("You take over the planet")
+
+     else:
+          print("that is not an option")
 
 elif userInput == 'B':
 # Student 2 finishes this code 
+     print("You died")
 
 else: 
      print("You entered something wrong - refresh and try again!")
